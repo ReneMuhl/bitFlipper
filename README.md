@@ -8,10 +8,11 @@ A program that reads a matrix from a file and flips a certain amount of bits. Th
 ```
 java -jar bitFlipper.jar -i mat_10x10_r0c0_a9b9 -x1 3 -x2 5 -y1 3 -y2 6
 ```
-#Explaination
 
 This call reads the matrix from input file "mat_10x10_r0c0_a9b". After that in the rectangle in the intervals 3 <= x <= 5 and 3 <= y <= 6
 all bit will be flipped. Finally a file "mat_10x10_r0c0_a9b9_flipped" with the new flipped matrix will be written.
+
+#Explaination
 
 meaning of the parameters:
 -i: input file name
